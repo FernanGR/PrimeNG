@@ -1,0 +1,31 @@
+https://primefaces.org/primeng/showcase/#/setup
+
+
+//instalacion
+npm install primeng primeicons
+
+
+// en angular.json añadimos estilos en styles:
+
+node_modules/primeicons/primeicons.css
+node_modules/primeng/resources/themes/saga-blue/theme.css
+node_modules/primeng/resources/primeng.min.css
+
+
+
+
+
+
+
+
+//crear modulo donde exportaras todos los modulos de primeNg
+    ng g m primeNg
+//añadimos todos los modulos ahi y exportamos..
+//añadimos ese modulo en nuestro app.module.ts
+
+
+
+//instalar primeflex
+    npm install primeflex --save
+//en angular.json añadir en estilos:
+    "node_modules/primeflex/primeflex.css"
