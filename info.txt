@@ -29,3 +29,12 @@ node_modules/primeng/resources/primeng.min.css
     npm install primeflex --save
 //en angular.json añadir en estilos:
     "node_modules/primeflex/primeflex.css"
+
+
+
+//instalar CDK  scroll  TABLA
+    npm install @angular/cdk --save
+    
+    import {TableModule} from 'primeng/table';
+
+//
